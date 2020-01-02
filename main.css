@@ -81,6 +81,28 @@ h1 {
     width: 450px;
 }
 
+.overlay {
+    position: relative;
+    width: 450;
+    height: 278;
+}
+
+.overlay .link {
+    position: absolute;
+    display: block;
+    width: 450px;
+    height: 65px;
+    background-color: #111;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay:hover .link {
+    opacity: 0.8;
+}
+
 .photo4 {
     width: 450px;
 }
